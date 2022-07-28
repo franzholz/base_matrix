@@ -1,0 +1,46 @@
+{
+  "name": "jambagecom/base-matrix",
+  "type": "typo3-cms-extension",
+  "description": "A library for handling Matrices.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "matrix"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/base_matrix/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+        "name": "Mark Baker",
+        "email": "mark@demon-angel.eu"
+    },
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "https://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "php": "^7.1 || ^8.0",
+    "typo3/cms-core": "^9.5 || ^10.4 || ^11.5"
+  },
+  "repositories": [
+    {
+        "type": "path",
+        "url": "Vendor/PHPMatrix"
+    }
+  ],
+  "replace": {
+    "typo3-ter/base-matrix": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "base_matrix"
+    }
+  }
+}
