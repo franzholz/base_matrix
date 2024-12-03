@@ -8,7 +8,7 @@ $EM_CONF[$_EXTKEY] = [
     'title' => 'Matrix Library',
     'description' => 'Library for handling Matrices (PHPMatrix)',
     'category' => 'misc',
-    'version' => '3.0.1',
+    'version' => '3.0.2',
     'state' => 'stable',
     'clearcacheonload' => 1,
     'author' => 'Mark Baker, Franz Holzinger',
@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'jambage.com',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-12.4.99'
+            'typo3' => '11.5.0-13.4.99'
         ],
         'conflicts' => [
         ],
